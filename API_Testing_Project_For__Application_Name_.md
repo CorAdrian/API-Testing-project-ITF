@@ -55,6 +55,21 @@ Below you can find a picture of the API request from Postman:<br>
 JavaScript Tests:
 
 **![image](https://github.com/user-attachments/assets/2ecd43a4-877e-4d57-8fe7-4fa8fc9bcaa5)**<br>
+
+<li>**GET comment with specific Post, ID 9**</li>
+
+HTTP method for request: **https://dummyjson.com/comments/post/9**<br>
+Request description: **The goal of this request is to generate the details for a specific item, comment with ID no.3**<br>
+Test types / techniques used: **Functional testing, Performance testing, Boundary Value Analysis, Data validation**<br>
+Response status code: **200 OK**<br>
+
+Below you can find a picture of the API request from Postman:<br>
+
+**![image](https://github.com/user-attachments/assets/e009901d-2139-4ea2-a52b-0032ebbd6899)**<br>
+
+JavaScript Tests:
+
+**![image](https://github.com/user-attachments/assets/16efe758-1647-4350-a095-5d62bb19bf7e)**<br>
 .............
 
 <li>**Nume Request n**</li>
