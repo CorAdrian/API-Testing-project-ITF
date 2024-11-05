@@ -58,7 +58,7 @@ JavaScript Tests:
 
 <li>**GET comment with specific Post, ID 9**</li>
 
-HTTP method for request: **https://dummyjson.com/comments/post/9**<br>
+HTTP method for request: **https://dummyjson.com/comments/post/3**<br>
 Request description: **The goal of this request is to generate the details for a specific item, comment with ID no.3**<br>
 Test types / techniques used: **Functional testing, Performance testing, Boundary Value Analysis, Data validation**<br>
 Response status code: **200 OK**<br>
