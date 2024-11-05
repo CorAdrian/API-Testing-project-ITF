@@ -70,6 +70,38 @@ Below you can find a picture of the API request from Postman:<br>
 JavaScript Tests:
 
 **![image](https://github.com/user-attachments/assets/16efe758-1647-4350-a095-5d62bb19bf7e)**<br>
+
+<li>**POST a new comment**</li>
+
+HTTP method for request: **https://dummyjson.com/comments/add**<br>
+Request description: **The goal of this request is to add a new post to the collection of comments**<br>
+Test types / techniques used: **Functional testing, Performance testing, Data validation**<br>
+Response status code: **400**<br>
+
+Below you can find a picture of the API request from Postman:<br>
+
+**![image](https://github.com/user-attachments/assets/a2acb249-c7b9-42bf-b64b-18f3dd1d355e)**<br>
+
+JavaScript Tests:
+
+**![image](https://github.com/user-attachments/assets/3e9ba5ad-c8c5-4f06-8176-10a46d02926a)**<br>
+
+<li>**PATCH update a field**</li>
+
+HTTP method for request: **https://dummyjson.com/comments/add**<br>
+Request description: **The goal of this request is to add a new post to the collection of comments**<br>
+Test types / techniques used: **Functional testing, Performance testing, Data validation**<br>
+Response status code: **400**<br>
+
+Below you can find a picture of the API request from Postman:<br>
+
+**![image](https://github.com/user-attachments/assets/426e7bad-ac57-403b-92a6-1cd9b917ea8d)
+**<br>
+
+JavaScript Tests:
+
+**![image](https://github.com/user-attachments/assets/bb84d9d1-7fd9-4228-98db-d56d6424a2df)**<br>
+
 .............
 
 <li>**Nume Request n**</li>
