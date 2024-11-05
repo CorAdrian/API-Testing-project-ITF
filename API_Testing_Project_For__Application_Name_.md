@@ -100,7 +100,7 @@ Below you can find a picture of the API request from Postman:<br>
 
 JavaScript Tests:
 
-**![image](https://github.com/user-attachments/assets/bb84d9d1-7fd9-4228-98db-d56d6424a2df)**<br>
+**![image](https://github.com/user-attachments/assets/e80e2680-ece1-42c8-85c6-d91877c452bc)**<br>
 
 .............
 
