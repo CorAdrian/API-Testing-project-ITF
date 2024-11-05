@@ -86,9 +86,9 @@ JavaScript Tests:
 
 **![image](https://github.com/user-attachments/assets/3e9ba5ad-c8c5-4f06-8176-10a46d02926a)**<br>
 
-<li>**PATCH update a field**</li>
+<li>**PATCH - partial update of a comment Id**</li>
 
-HTTP method for request: **https://dummyjson.com/comments/add**<br>
+HTTP method for request: **https://dummyjson.com/comments/3**<br>
 Request description: **The goal of this request is to add a new post to the collection of comments**<br>
 Test types / techniques used: **Functional testing, Performance testing, Data validation**<br>
 Response status code: **200 OK**<br>
@@ -102,36 +102,41 @@ JavaScript Tests:
 
 **![image](https://github.com/user-attachments/assets/e80e2680-ece1-42c8-85c6-d91877c452bc)**<br>
 
-.............
+<li>**PATCH - partial update of the FullName field Id 5**</li>
 
-<li>**Nume Request n**</li>
-
-HTTP method for request: **Inserati aici metoda HTTP a requestului**<br>
-Request description: **Inserati o scurta descriere a requestului, conform documentatiei de API**<br>
-Test types / techniques used: **Inserati tipurile si tehnicile de testare folosite pentru acest request**<br>
-Response status code: **Inserati aici status code-ul pe care l-ati obtinut in urma executiei requestului**<br>
+HTTP method for request: **https://dummyjson.com/comments/5**<br>
+Request description: **The goal of this request is to update the fullName of the user Id5, which is posting the respective comments**<br>
+Test types / techniques used: **Functional testing, Performance testing, Data validation**<br>
+Response status code: **400 Bad request**<br>
 
 Below you can find a picture of the API request from Postman:<br>
 
-**Inserati aici o poza cu requestul din postman in care sa se observe request method, endpoint, request body si response body**<br>
+**![image](https://github.com/user-attachments/assets/5356c74c-a64d-4f3a-afd1-57b9fb8f53a7)**<br>
 
 JavaScript Tests:
 
-**Inserati aici o poza cu testele in java script pe care le-ati definit impreuna cu rezultatele executiei acestora**<br>
+**![image](https://github.com/user-attachments/assets/389db04a-e476-4eef-8b26-e8179ccb140e)**<br>
 
-</ol>
+<li>**DELETE - a specific comment - no.10 **</li>
 
-<h2>Execution report for the created API collection </h2>
+HTTP method for request: **https://dummyjson.com/comments/10**<br>
+Request description: **The goal of this request is to delete comment with Id 10>
+Test types / techniques used: **Functional testing, Performance testing, Data validation**<br>
+Response status code: **400 Bad request**<br>
+
+Below you can find a picture of the API request from Postman:<br>
+
+**![image](https://github.com/user-attachments/assets/414476e5-2da3-4e72-9936-c4e5ded75d46)**<br>
+
+JavaScript Tests:
+
+**![image](https://github.com/user-attachments/assets/dfdc5895-7cad-4d5d-bab5-70bd61959d88)**<br>
+
 
 Below you can find the execution report that was generated through the Postman collection runner. <br>
 
-**Inserati aici o poza cu raportul de executie din Postman**<br>
+**![image](https://github.com/user-attachments/assets/86f8115f-e8cb-4caf-a951-b6d2ec85c6dc)**<br>
 
-The collection was also run through newman directly from the terminal, and the results can be found below:<br>
-
-**Inserati aici o poza cu raportul de executie din Newman**<br>
-
-<h2>Defects found</h2>
 
 The following issues were identified while running the postman tests:<br>
 
