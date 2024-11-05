@@ -76,7 +76,7 @@ JavaScript Tests:
 HTTP method for request: **https://dummyjson.com/comments/add**<br>
 Request description: **The goal of this request is to add a new post to the collection of comments**<br>
 Test types / techniques used: **Functional testing, Performance testing, Data validation**<br>
-Response status code: **400**<br>
+Response status code: **400 Bad request**<br>
 
 Below you can find a picture of the API request from Postman:<br>
 
@@ -91,7 +91,7 @@ JavaScript Tests:
 HTTP method for request: **https://dummyjson.com/comments/add**<br>
 Request description: **The goal of this request is to add a new post to the collection of comments**<br>
 Test types / techniques used: **Functional testing, Performance testing, Data validation**<br>
-Response status code: **400**<br>
+Response status code: **200 OK**<br>
 
 Below you can find a picture of the API request from Postman:<br>
 
