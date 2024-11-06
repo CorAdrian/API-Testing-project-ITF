@@ -151,7 +151,7 @@ JavaScript Tests:
 
 Below you can find the execution report that was generated through the Postman collection runner. <br>
 
-**![image](https://github.com/user-attachments/assets/86f8115f-e8cb-4caf-a951-b6d2ec85c6dc)**<br>
+**![image](https://github.com/user-attachments/assets/75206cf9-08e8-4c35-ba71-ee80f5e72ed4)**<br>
 
 
 The following issues were identified while running the postman tests:<br>
