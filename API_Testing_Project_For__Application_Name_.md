@@ -71,6 +71,22 @@ JavaScript Tests:
 
 **![image](https://github.com/user-attachments/assets/16efe758-1647-4350-a095-5d62bb19bf7e)**<br>
 
+<li>**GET count the number of comments**</li>
+
+HTTP method for request: **https://dummyjson.com/comments**<br>
+Request description: **The goal of this request is to retrieve the total number of comments**<br>
+Test types / techniques used: **Functional testing, Performance testing, Boundary Value Analysis, Data validation**<br>
+Response status code: **200 OK**<br>
+
+Below you can find a picture of the API request from Postman:<br>
+
+**![image](https://github.com/user-attachments/assets/1774a107-07b0-4b1d-9940-58bb76892ea8)**<br>
+
+JavaScript Tests:
+
+**![image](https://github.com/user-attachments/assets/f1aec656-bb50-48e5-a958-5be9425ab821)**<br>
+
+
 <li>**POST a new comment**</li>
 
 HTTP method for request: **https://dummyjson.com/comments/add**<br>
