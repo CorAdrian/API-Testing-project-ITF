@@ -2,19 +2,19 @@
 
 The scope of this project is to use all  API knowledge gained throught the Software Testing course and apply them in practice, using a live application.
 
-Application under test: **DummyJSON**
+Application under test: **JSONplaceholder.typicode**
 
 Tools used: Postman, Newman
 
-Collection link: **https://dummyjson.com**
+Collection link: **https://jsonplaceholder.typicode.com**
 
 <h2>Tests performed</h2>
 
 <ol>
-<li>**GET all comments**</li>
+<li>**GET all posts**</li>
 
-HTTP method for request: **https://dummyjson.com/docs/comments**<br>
-Request description: **The goal of this request is to generate the list of all comments made by the users**<br>
+HTTP method for request: **https://jsonplaceholder.typicode.com/posts**<br>
+Request description: **The goal of this request is to generate the list of all posts made by the users**<br>
 Test types / techniques used: **Functional testing, Performance testing, Equivalence partitioning, Boundary Value Analysis, Data validation**<br>
 Response status code: **200 OK**<br>
 
@@ -24,18 +24,18 @@ Below you can find a picture of the API request from Postman:<br>
 
 JavaScript Tests:
 
-**![image](https://github.com/user-attachments/assets/cd8b37e3-48c5-4ce7-9131-28f4b29aba10)**<br>
+**![image](https://github.com/user-attachments/assets/faf812b2-37f1-40b7-b800-baefee1b4ff5)**<br>
 
-<li>**GET comments by ID**</li>
+<li>**GET posts by ID**</li>
 
-HTTP method for request: **https://dummyjson.com/comments/3**<br>
-Request description: **The goal of this request is to generate the details for a specific item, comment with ID no.3**<br>
+HTTP method for request: **https://jsonplaceholder.typicode.com/posts/2**<br>
+Request description: **The goal of this request is to generate the details for a specific item, comment with ID no.2**<br>
 Test types / techniques used: **Functional testing, Performance testing, Boundary Value Analysis, Data validation**<br>
 Response status code: **200 OK**<br>
 
 Below you can find a picture of the API request from Postman:<br>
 
-**![image](https://github.com/user-attachments/assets/e009901d-2139-4ea2-a52b-0032ebbd6899)**<br>
+**![image](https://github.com/user-attachments/assets/acfa4e98-5684-4ea5-9947-fb27bb001a99)*<br>
 
 JavaScript Tests:
 
@@ -43,7 +43,7 @@ JavaScript Tests:
 
 <li>**GET comment with invalid ID**</li>
 
-HTTP method for request: **https://dummyjson.com/comments/99**<br>
+HTTP method for request: **https://dummyjson.com/posts/99**<br>
 Request description: **The goal of this request is to retrieve the response code 404 "Not found" when searching for a non-existent comment ID (999)**<br>
 Test types / techniques used: **Functional testing, Performance testing, Boundary Value Analysis, Error message validation, Data validation**<br>
 Response status code: **404 Not found**<br>
@@ -58,7 +58,7 @@ JavaScript Tests:
 
 <li>**GET comment with specific Post, ID 3**</li>
 
-HTTP method for request: **https://dummyjson.com/comments/post/3**<br>
+HTTP method for request: **https://dummyjson.com/posts/post/3**<br>
 Request description: **The goal of this request is to generate the details for a specific item, comment with ID no.3**<br>
 Test types / techniques used: **Functional testing, Performance testing, Boundary Value Analysis, Data validation**<br>
 Response status code: **200 OK**<br>
@@ -71,10 +71,10 @@ JavaScript Tests:
 
 **![image](https://github.com/user-attachments/assets/16efe758-1647-4350-a095-5d62bb19bf7e)**<br>
 
-<li>**GET count the number of comments**</li>
+<li>**GET count the number of posts**</li>
 
-HTTP method for request: **https://dummyjson.com/comments**<br>
-Request description: **The goal of this request is to retrieve the total number of comments**<br>
+HTTP method for request: **https://dummyjson.com/posts**<br>
+Request description: **The goal of this request is to retrieve the total number of posts**<br>
 Test types / techniques used: **Functional testing, Performance testing, Boundary Value Analysis, Data validation**<br>
 Response status code: **200 OK**<br>
 
@@ -89,8 +89,8 @@ JavaScript Tests:
 
 <li>**POST a new comment**</li>
 
-HTTP method for request: **https://dummyjson.com/comments/add**<br>
-Request description: **The goal of this request is to add a new post to the collection of comments**<br>
+HTTP method for request: **https://dummyjson.com/posts/add**<br>
+Request description: **The goal of this request is to add a new post to the collection of posts**<br>
 Test types / techniques used: **Functional testing, Performance testing, Data validation**<br>
 Response status code: **400 Bad request**<br>
 
@@ -104,8 +104,8 @@ JavaScript Tests:
 
 <li>**PATCH - partial update of a comment Id**</li>
 
-HTTP method for request: **https://dummyjson.com/comments/3**<br>
-Request description: **The goal of this request is to add a new post to the collection of comments**<br>
+HTTP method for request: **https://dummyjson.com/posts/3**<br>
+Request description: **The goal of this request is to add a new post to the collection of posts**<br>
 Test types / techniques used: **Functional testing, Performance testing, Data validation**<br>
 Response status code: **200 OK**<br>
 
@@ -120,8 +120,8 @@ JavaScript Tests:
 
 <li>**PATCH - partial update of the FullName field Id 5**</li>
 
-HTTP method for request: **https://dummyjson.com/comments/5**<br>
-Request description: **The goal of this request is to update the fullName of the user Id5, which is posting the respective comments**<br>
+HTTP method for request: **https://dummyjson.com/posts/5**<br>
+Request description: **The goal of this request is to update the fullName of the user Id5, which is posting the respective posts**<br>
 Test types / techniques used: **Functional testing, Performance testing, Data validation**<br>
 Response status code: **400 Bad request**<br>
 
@@ -135,7 +135,7 @@ JavaScript Tests:
 
 <li>**DELETE - a specific comment - no.10 **</li>
 
-HTTP method for request: **https://dummyjson.com/comments/10**<br>
+HTTP method for request: **https://dummyjson.com/posts/10**<br>
 Request description: **The goal of this request is to delete comment with Id 10>
 Test types / techniques used: **Functional testing, Performance testing, Data validation**<br>
 Response status code: **400 Bad request**<br>
