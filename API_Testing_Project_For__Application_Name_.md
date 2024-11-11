@@ -4,7 +4,7 @@ The scope of this project is to use all  API knowledge gained throught the Softw
 
 Application under test: **JSONplaceholder.typicode**
 
-Tools used: Postman, Newman
+Tools used: Postman
 
 Collection link: **https://jsonplaceholder.typicode.com**
 
@@ -43,18 +43,18 @@ JavaScript Tests:
 
 <li>**GET comment with invalid ID**</li>
 
-HTTP method for request: **https://dummyjson.com/posts/99**<br>
+HTTP method for request: **https://jsonplaceholder.typicode.com/posts/101**<br>
 Request description: **The goal of this request is to retrieve the response code 404 "Not found" when searching for a non-existent comment ID (999)**<br>
 Test types / techniques used: **Functional testing, Performance testing, Boundary Value Analysis, Error message validation, Data validation**<br>
 Response status code: **404 Not found**<br>
 
 Below you can find a picture of the API request from Postman:<br>
 
-**![image](https://github.com/user-attachments/assets/244e3cf5-496e-4257-841a-edf935dbc2fc)**<br>
+**![image](https://github.com/user-attachments/assets/2586a6f9-cac6-4917-b2c1-66b4177aba50)**<br>
 
 JavaScript Tests:
 
-**![image](https://github.com/user-attachments/assets/2ecd43a4-877e-4d57-8fe7-4fa8fc9bcaa5)**<br>
+**![image](https://github.com/user-attachments/assets/3001b6a8-f52c-4453-ad97-18baa581363a)**<br>
 
 <li>**GET comment with specific Post, ID 3**</li>
 
@@ -65,11 +65,11 @@ Response status code: **200 OK**<br>
 
 Below you can find a picture of the API request from Postman:<br>
 
-**![image](https://github.com/user-attachments/assets/e009901d-2139-4ea2-a52b-0032ebbd6899)**<br>
+**![image](https://github.com/user-attachments/assets/4c83de5a-0523-4a68-a3af-d5e939b46664)**<br>
 
 JavaScript Tests:
 
-**![image](https://github.com/user-attachments/assets/16efe758-1647-4350-a095-5d62bb19bf7e)**<br>
+**![image](https://github.com/user-attachments/assets/c660c1b6-28c7-4367-b045-33bb85d12bd3)**<br>
 
 <li>**GET count the number of posts**</li>
 
