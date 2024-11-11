@@ -121,34 +121,18 @@ JavaScript Tests:
 
 **<li>**PATCH - partial update of a comment Id**</li>
 
-HTTP method for request: **https://dummyjson.com/posts/3**<br>
-Request description: **The goal of this request is to add a new post to the collection of posts**<br>
+HTTP method for request: **https://jsonplaceholder.typicode.com/posts/7**<br>
+Request description: **The goal of this request is to update partially, specific fields of a post**<br>
 Test types / techniques used: **Functional testing, Performance testing, Data validation**<br>
 Response status code: **200 OK**<br>
 
 Below you can find a picture of the API request from Postman:<br>
 
-**![image](https://github.com/user-attachments/assets/426e7bad-ac57-403b-92a6-1cd9b917ea8d)
-**<br>
+**![image](https://github.com/user-attachments/assets/bc7dda9c-4baa-44e4-a049-455c9a39dcd4)**<br>
 
 JavaScript Tests:
 
-**![image](https://github.com/user-attachments/assets/e80e2680-ece1-42c8-85c6-d91877c452bc)**<br>
-
-<li>**PATCH - partial update of a comment Id**</li>
-
-HTTP method for request: **https://dummyjson.com/posts/3**<br>
-Request description: **The goal of this request is to add a new post to the collection of posts**<br>
-Test types / techniques used: **Functional testing, Performance testing, Data validation**<br>
-Response status code: **200 OK**<br>
-
-Below you can find a picture of the API request from Postman:<br>
-
-**![image](https://github.com/user-attachments/assets/426e7bad-ac57-403b-92a6-1cd9b917ea8d)**<br>
-
-JavaScript Tests:
-
-**![image](https://github.com/user-attachments/assets/2cd383cc-854d-40a3-8150-ae3ba237778c)**<br>
+**![image](https://github.com/user-attachments/assets/d453459e-d53d-4466-92fd-848dfc269c23)**<br>
 
 <li>**PATCH - partial update of the FullName field Id 5**</li>
 
@@ -165,9 +149,9 @@ JavaScript Tests:
 
 **![image](https://github.com/user-attachments/assets/389db04a-e476-4eef-8b26-e8179ccb140e)**<br>
 
-<li>**DELETE - a specific comment - no.10 **</li>
+<li>**DELETE - a specific comment - no.101 **</li>
 
-HTTP method for request: **https://dummyjson.com/posts/10**<br>
+HTTP method for request: **https://jsonplaceholder.typicode.com/posts/101**<br>
 Request description: **The goal of this request is to delete comment with Id 10>
 Test types / techniques used: **Functional testing, Performance testing, Data validation**<br>
 Response status code: **400 Bad request**<br>
@@ -178,7 +162,7 @@ Below you can find a picture of the API request from Postman:<br>
 
 JavaScript Tests:
 
-**![image](https://github.com/user-attachments/assets/dfdc5895-7cad-4d5d-bab5-70bd61959d88)**<br>
+**![image](https://github.com/user-attachments/assets/24accbbc-2115-4b86-a39e-23438b2cf5d1)**<br>
 
 
 Below you can find the execution report that was generated through the Postman collection runner. <br>
@@ -188,12 +172,34 @@ Below you can find the execution report that was generated through the Postman c
 
 The following issues were identified while running the postman tests:<br>
 
-****Inserati aici fie un fisier pdf care sa contina raportarea tuturor bug-urilor, fie le descrieti direct in git
-Bug-urile trebuie sa contina titlu, preconditii, pasi de executie, rezultate asteptate si rezultate actuale.
-Optional, bug-urile pot fi raportate in jira, si apoi puteti pune poze direct din jira**
+**NR.
+Cerinta
+Rezultat asteptat
+Rezultat returnat
+Pasi pentru remediere
+1
+Request GET
+Sa genereze mesaj de eroare pentru non-valid post id
+404 Not found
+-Deschidere tool Postman 
+- Se updateaza scriptul pentru a returna rezultatul necesar
+2
+Request GET
+Sa genereze cod de validare 200 OK.
+Codul generat este 404 Not found.
+-Deschidere tool Postman 
+- Se updateaza scriptul pentru a returna rezultatul necesar
+3
+Request GET
+Sa confirme campurile existente, cand se solicita status, sa genereze in body field - ‘status ok’
+In body field nu s-a generat niciun raspuns.
+-Deschidere tool Postman 
+- Se updateaza scriptul pentru a returna rezultatul necesar**
 
 <h2>Conclusions</h2>
 
-**Inserati aici concluziile pe care le-ati obtinut in urma executarii testelor  si introduceti informatii cum ar fi cate teste au fost create si executate, ce procentaj aproximativ din cerintele in scop au fost acoperite, daca exista vreo functionalitate pe care nu ai apucat sa o testezi, daca bug-urile gasite impacteaza lansarea produsului in productie sau se pot fixa si ulterior, daca ai identificat riscuri de produs care trebuie mitigate, daca e vreo reecomandare pe care vrei sa o faci pentru lansare, daca sunt ceva lessons learned de care trebuie sa se tina cont la proiectele viitoare etc**
+**Prezentul proiect a fost intocmit pentru testarea API a aplicatiei jsonplaceholder, pentru administrarea requesturilor si pentru efectuarea testelor, precum si pentru rularea raportului de executie.
+Defectele identificate semnifica probleme importante in administrarea colectiei de date API si poate avea ca impact inregistrarea unor date incorecte sau incomplete in baza de date. Codurile de eroare generate si inregistrarea de date inconsistente pot creea confuzie in cadrul utilizatorilor, putand duce la posibile nemultumiri, feed back negativ si probleme de reputatie.
+Corectarea defectelor identificate este deci o masura urgenta si obligatorie, inainte de lansarea tool-ului.**
 
 
