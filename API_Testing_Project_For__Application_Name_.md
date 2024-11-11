@@ -69,7 +69,7 @@ Below you can find a picture of the API request from Postman:<br>
 
 JavaScript Tests:
 
-**![image](https://github.com/user-attachments/assets/c660c1b6-28c7-4367-b045-33bb85d12bd3)**<br>
+**![image](https://github.com/user-attachments/assets/b5604e7f-1257-41e0-b1a3-41530280b978)**<br>
 
 <li>**GET count the number of posts**</li>
 
@@ -80,11 +80,11 @@ Response status code: **200 OK**<br>
 
 Below you can find a picture of the API request from Postman:<br>
 
-**![image](https://github.com/user-attachments/assets/1774a107-07b0-4b1d-9940-58bb76892ea8)**<br>
+**![image](https://github.com/user-attachments/assets/41317634-1079-49de-ba88-e14e5ebc3c8f)**<br>
 
 JavaScript Tests:
 
-**![image](https://github.com/user-attachments/assets/f1aec656-bb50-48e5-a958-5be9425ab821)**<br>
+**![image](https://github.com/user-attachments/assets/6470cceb-be91-419a-90c4-185d9dc912d4)**<br>
 
 
 <li>**POST a new comment**</li>
