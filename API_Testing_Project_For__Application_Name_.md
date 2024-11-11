@@ -58,7 +58,7 @@ JavaScript Tests:
 
 <li>**GET comment with specific Post, ID 3**</li>
 
-HTTP method for request: **https://dummyjson.com/posts/post/3**<br>
+HTTP method for request: **https://jsonplaceholder.typicode.com/posts/3**<br>
 Request description: **The goal of this request is to generate the details for a specific item, comment with ID no.3**<br>
 Test types / techniques used: **Functional testing, Performance testing, Boundary Value Analysis, Data validation**<br>
 Response status code: **200 OK**<br>
@@ -73,7 +73,7 @@ JavaScript Tests:
 
 <li>**GET count the number of posts**</li>
 
-HTTP method for request: **https://dummyjson.com/posts**<br>
+HTTP method for request: **https://jsonplaceholder.typicode.com/posts**<br>
 Request description: **The goal of this request is to retrieve the total number of posts**<br>
 Test types / techniques used: **Functional testing, Performance testing, Boundary Value Analysis, Data validation**<br>
 Response status code: **200 OK**<br>
@@ -87,22 +87,39 @@ JavaScript Tests:
 **![image](https://github.com/user-attachments/assets/6470cceb-be91-419a-90c4-185d9dc912d4)**<br>
 
 
-<li>**POST a new comment**</li>
+<li>**Add a new post**</li>
 
-HTTP method for request: **https://dummyjson.com/posts/add**<br>
+HTTP method for request: **https://jsonplaceholder.typicode.com/posts/add**<br>
 Request description: **The goal of this request is to add a new post to the collection of posts**<br>
 Test types / techniques used: **Functional testing, Performance testing, Data validation**<br>
-Response status code: **400 Bad request**<br>
+Response status code: **201 created**<br>
 
 Below you can find a picture of the API request from Postman:<br>
 
-**![image](https://github.com/user-attachments/assets/a2acb249-c7b9-42bf-b64b-18f3dd1d355e)**<br>
+**![image](https://github.com/user-attachments/assets/2c03d674-64e1-44a9-9324-3e7d2d7560dd)**<br>
 
 JavaScript Tests:
 
-**![image](https://github.com/user-attachments/assets/3e9ba5ad-c8c5-4f06-8176-10a46d02926a)**<br>
+**![image](https://github.com/user-attachments/assets/32cb0d44-6890-4451-bc06-ee7b4c1410b8)**<br>
 
-<li>**PATCH - partial update of a comment Id**</li>
+
+<li>**PUT - update of a post**</li>
+
+HTTP method for request: **https://dummyjson.com/posts/3**<br>
+Request description: **The goal of this request is to add a new post to the collection of posts**<br>
+Test types / techniques used: **Functional testing, Performance testing, Data validation**<br>
+Response status code: **200 OK**<br>
+
+Below you can find a picture of the API request from Postman:<br>
+
+**![image](https://github.com/user-attachments/assets/adadfaed-a4c4-488d-8637-d83e7241e646)**<br>
+
+JavaScript Tests:
+
+**![image](https://github.com/user-attachments/assets/66805378-1ae0-463e-b475-07a410b6073f)**<br>
+
+
+**<li>**PATCH - partial update of a comment Id**</li>
 
 HTTP method for request: **https://dummyjson.com/posts/3**<br>
 Request description: **The goal of this request is to add a new post to the collection of posts**<br>
@@ -117,6 +134,21 @@ Below you can find a picture of the API request from Postman:<br>
 JavaScript Tests:
 
 **![image](https://github.com/user-attachments/assets/e80e2680-ece1-42c8-85c6-d91877c452bc)**<br>
+
+<li>**PATCH - partial update of a comment Id**</li>
+
+HTTP method for request: **https://dummyjson.com/posts/3**<br>
+Request description: **The goal of this request is to add a new post to the collection of posts**<br>
+Test types / techniques used: **Functional testing, Performance testing, Data validation**<br>
+Response status code: **200 OK**<br>
+
+Below you can find a picture of the API request from Postman:<br>
+
+**![image](https://github.com/user-attachments/assets/426e7bad-ac57-403b-92a6-1cd9b917ea8d)**<br>
+
+JavaScript Tests:
+
+**![image](https://github.com/user-attachments/assets/2cd383cc-854d-40a3-8150-ae3ba237778c)**<br>
 
 <li>**PATCH - partial update of the FullName field Id 5**</li>
 
