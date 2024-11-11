@@ -134,20 +134,20 @@ JavaScript Tests:
 
 **![image](https://github.com/user-attachments/assets/d453459e-d53d-4466-92fd-848dfc269c23)**<br>
 
-<li>**PATCH - partial update of the FullName field Id 5**</li>
+<li>**PATCH - partial update of the FullName field Id 3**</li>
 
-HTTP method for request: **https://dummyjson.com/posts/5**<br>
+HTTP method for request: **https://jsonplaceholder.typicode.com/posts/3**<br>
 Request description: **The goal of this request is to update the fullName of the user Id5, which is posting the respective posts**<br>
 Test types / techniques used: **Functional testing, Performance testing, Data validation**<br>
 Response status code: **400 Bad request**<br>
 
 Below you can find a picture of the API request from Postman:<br>
 
-**![image](https://github.com/user-attachments/assets/5356c74c-a64d-4f3a-afd1-57b9fb8f53a7)**<br>
+**![image](https://github.com/user-attachments/assets/0dbc0638-04b3-4566-b6e9-5c9896f75c46)**<br>
 
 JavaScript Tests:
 
-**![image](https://github.com/user-attachments/assets/389db04a-e476-4eef-8b26-e8179ccb140e)**<br>
+**![image](https://github.com/user-attachments/assets/3a36c64e-d808-4888-bf10-c42fb6efde3b)**<br>
 
 <li>**DELETE - a specific comment - no.101 **</li>
 
