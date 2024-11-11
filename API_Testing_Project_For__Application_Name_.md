@@ -105,18 +105,18 @@ JavaScript Tests:
 
 <li>**PUT - update of a post**</li>
 
-HTTP method for request: **https://dummyjson.com/posts/3**<br>
+HTTP method for request: **https://jsonplaceholder.typicode.com/posts/9**<br>
 Request description: **The goal of this request is to add a new post to the collection of posts**<br>
 Test types / techniques used: **Functional testing, Performance testing, Data validation**<br>
 Response status code: **200 OK**<br>
 
 Below you can find a picture of the API request from Postman:<br>
 
-**![image](https://github.com/user-attachments/assets/adadfaed-a4c4-488d-8637-d83e7241e646)**<br>
+**![image](https://github.com/user-attachments/assets/3633162a-2c2e-4985-a506-2e2a827f4b05)**<br>
 
 JavaScript Tests:
 
-**![image](https://github.com/user-attachments/assets/66805378-1ae0-463e-b475-07a410b6073f)**<br>
+**![image](https://github.com/user-attachments/assets/f3e09636-50f7-4c8c-a0a2-045600cb644f)**<br>
 
 
 **<li>**PATCH - partial update of a comment Id**</li>
