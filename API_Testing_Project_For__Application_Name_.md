@@ -1,4 +1,4 @@
-<h1>API Testing Project for **Inserati aici numele aplicatiei pe care o testati**</h1>
+<h1>API Testing Project for **JSONplaceholder**</h1>
 
 The scope of this project is to use all  API knowledge gained throught the Software Testing course and apply them in practice, using a live application.
 
@@ -6,7 +6,7 @@ Application under test: **JSONplaceholder.typicode**
 
 Tools used: Postman
 
-Collection link: **https://jsonplaceholder.typicode.com**
+Collection link [here]: **https://jsonplaceholder.typicode.com**
 
 <h2>Tests performed</h2>
 
@@ -173,33 +173,33 @@ Below you can find the execution report that was generated through the Postman c
 The following issues were identified while running the postman tests:<br>
 
 **NR.
-Cerinta
-Rezultat asteptat
-Rezultat returnat
-Pasi pentru remediere
+Requirement
+Expected result
+Result returned
+Remedial steps
 1
 Request GET
-Sa genereze mesaj de eroare pentru non-valid post id
+To generate an error message for non-valid post id
 404 Not found
--Deschidere tool Postman 
-- Se updateaza scriptul pentru a returna rezultatul necesar
+- Open the Postman tool 
+- The script is updated accordingly, in order to return the required result
 2
 Request GET
-Sa genereze cod de validare 200 OK.
-Codul generat este 404 Not found.
--Deschidere tool Postman 
-- Se updateaza scriptul pentru a returna rezultatul necesar
+To generate validation code 200 OK.
+The code generated is 404 Not found.
+- Open the Postman tool 
+- The script is updated accordingly, in order to return the required result
 3
 Request GET
-Sa confirme campurile existente, cand se solicita status, sa genereze in body field - ‘status ok’
-In body field nu s-a generat niciun raspuns.
--Deschidere tool Postman 
-- Se updateaza scriptul pentru a returna rezultatul necesar**
+To confirm the existing fields, when status is requested, to generate in the body field - 'status ok'
+No response was generated in the "body" field.
+- Open the Postman tool 
+- The script is updated accordingly, in order to return the required result**
 
 <h2>Conclusions</h2>
 
-**Prezentul proiect a fost intocmit pentru testarea API a aplicatiei jsonplaceholder, pentru administrarea requesturilor si pentru efectuarea testelor, precum si pentru rularea raportului de executie.
-Defectele identificate semnifica probleme importante in administrarea colectiei de date API si poate avea ca impact inregistrarea unor date incorecte sau incomplete in baza de date. Codurile de eroare generate si inregistrarea de date inconsistente pot creea confuzie in cadrul utilizatorilor, putand duce la posibile nemultumiri, feed back negativ si probleme de reputatie.
-Corectarea defectelor identificate este deci o masura urgenta si obligatorie, inainte de lansarea tool-ului.**
+**This project was prepared for testing the API of the jsonplaceholder application, for managing requests and for performing tests, as well as for running the execution report.
+The identified defects mean important problems in the administration of the API data collection and may have the impact of recording incorrect or incomplete data in the database. Generated error codes and inconsistent data recording can create confusion among users, possibly leading to dissatisfaction, negative feed back and reputation problems.
+The correction of the identified defects is therefore an urgent and mandatory measure, before the launch of the tool.**
 
 
